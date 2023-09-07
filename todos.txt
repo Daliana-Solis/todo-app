@@ -1,4 +1,3 @@
-eat
-wash
+doto
+idk
 shower
-sew
