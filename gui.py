@@ -19,11 +19,11 @@ add_button = sg.Button("Add", size=10)
 list_box = sg.Listbox(values=functions.get_todos(), key="todos_items",
                       enable_events=True, size = [45,10])
 
-edit_button = sg.Button("Edit")
+edit_button = sg.Button("Edit", size=8)
 
 complete_button = sg.Button("Complete")
 
-exit_button = sg.Button("Exit")
+exit_button = sg.Button("Exit", size = 10)
 
 window = sg.Window("My To-Do App",
                    layout =[[clock_label],
